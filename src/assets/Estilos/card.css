@@ -1,0 +1,44 @@
+@import url('https://fonts.googleapis.com/css2?family=Bruno+Ace+SC&display=swap');
+
+.tarjetas {
+  
+    text-decoration: none;
+     
+    
+  }
+  
+   .card{
+    font-family: 'Bruno Ace SC', cursive;
+    box-shadow: 0 1px 4px rgba(0, 0, 0, .3),
+                -23px 0 20px -23px rgba(0, 0, 0, .8),
+                23px 0 20px -23px rgba(0, 0, 0, .8),
+                inset 0 0 40px rgba(0, 0, 0, .1);
+  }
+.cardImage{
+  width: 100px;
+  height: 300px;
+}
+  /* Estilos para las tarjetas en dispositivos de escritorio */
+@media (max-width: 600px) {
+  .tarjetas .card {
+
+    box-shadow: 0 1px 4px rgba(0, 0, 0, .3),
+                -23px 0 20px -23px rgba(0, 0, 0, .8),
+                23px 0 20px -23px rgba(0, 0, 0, .8),
+                inset 0 0 40px rgba(0, 0, 0, .1);
+    /* Puedes ajustar los valores de box-shadow según tus preferencias */
+  }
+}
+
+/* Estilos para las tarjetas en dispositivos móviles */
+@media (min-width: 640px) {
+  .tarjetas .card {
+
+    margin: auto;
+    width: auto;
+    padding-left: auto;
+    height: auto;
+    box-shadow: 0 1px 2px rgba(0, 0, 0, .2); /* Un sombreado más ligero para dispositivos móviles */
+    /* Puedes ajustar los valores de box-shadow según tus preferencias */
+  }
+}

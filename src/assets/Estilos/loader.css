@@ -1,0 +1,55 @@
+
+.custom-loader {
+    width: 70px;
+    height: 70px;
+    background:
+      radial-gradient(farthest-side,#4438ea 90%,#0000) center/16px 16px,
+      radial-gradient(farthest-side,#6F6D91   90%,#0000) bottom/12px 12px;
+    background-repeat: no-repeat;
+    animation: s7 1s infinite linear;
+    position: relative;
+  }
+  .custom-loader {
+    width:100px;
+    height:48px;
+    background: 
+      radial-gradient(circle closest-side,#f4851e 90%,#0000) 0%   50%,
+      radial-gradient(circle closest-side,#e9f41e 90%,#0000) 50%  50%,
+      radial-gradient(circle closest-side,#cdf674 90%,#0000) 100% 50%;
+    background-size:calc(100%/3) 24px;
+    background-repeat: no-repeat;
+    animation:d3 1s infinite linear;
+  }
+  @keyframes d3 {
+      20%{background-position:0%   0%, 50%  50%,100%  50%}
+      40%{background-position:0% 100%, 50%   0%,100%  50%}
+      60%{background-position:0%  50%, 50% 100%,100%   0%}
+      80%{background-position:0%  50%, 50%  50%,100% 100%}
+  }
+  
+  @import url("https://fonts.googleapis.com/css2?family=Russo+One&display=swap");
+  
+  svg {
+      font-family: "Russo One", sans-serif;
+      width: 100%; height: 100%;
+  }
+  svg text {
+      animation: stroke 5s infinite alternate;
+      stroke-width: 2;
+      stroke: #2E2C2B;
+      font-size: 100px;
+  }
+  @keyframes stroke {
+      0%   {
+          fill: rgba(5,10,15,0); stroke: rgba(46,44,43,1);
+          stroke-dashoffset: 25%; stroke-dasharray: 0 50%; stroke-width: 2;
+      }
+      70%  {fill: rgba(5,10,15,0); stroke: rgba(46,44,43,1); }
+      80%  {fill: rgba(5,10,15,0); stroke: rgba(46,44,43,1); stroke-width: 3; }
+      100% {
+          fill: rgba(5,10,15,1); stroke: rgba(46,44,43,0);
+          stroke-dashoffset: -25%; stroke-dasharray: 50% 0; stroke-width: 0;
+      }
+  }
+  
+  

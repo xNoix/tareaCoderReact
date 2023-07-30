@@ -1,0 +1,304 @@
+{
+    "Productos": [
+        {
+            "id": 1,
+          "imagen": "https://m.media-amazon.com/images/I/819dK+dtKwL._AC_SL1500_.jpg",
+          "titulo": "Notebook HP Pavilion",
+          "descripcion": "Potente notebook con procesador Intel Core i7, 16GB de RAM y 1TB de almacenamiento.",
+          "stock": 10,
+          "categoria": "Electrónica",
+          "tipo": "Notebook",
+          "precio": 1299.99
+        },
+        {
+            "id": 2,
+          "imagen": "https://m.media-amazon.com/images/I/71vT0nY3qML._AC_SL1500_.jpg",
+          "titulo": "Notebook Dell Inspiron",
+          "descripcion": "Notebook ligero y versátil con pantalla táctil, procesador Intel Core i5 y 8GB de RAM.",
+          "stock": 5,
+          "categoria": "Electrónica",
+          "tipo": "Notebook",
+          "precio": 899.99
+        },
+        {
+            "id": 3,
+          "imagen": "https://m.media-amazon.com/images/I/31FWOHIGWBL._AC_.jpg",
+          "titulo": "Notebook Lenovo ThinkPad",
+          "descripcion": "Notebook empresarial con teclado retroiluminado, procesador Intel Core i7 y 512GB de almacenamiento SSD.",
+          "stock": 2,
+          "categoria": "Electrónica",
+          "tipo": "Notebook",
+          "precio": 1499.99
+        },
+        {
+            "id": 4,
+          "imagen": "https://m.media-amazon.com/images/I/71vlO1XT55L._AC_SL1500_.jpg",
+          "titulo": "Notebook Acer Aspire",
+          "descripcion": "Notebook económico con procesador AMD Ryzen 5, 12GB de RAM y 256GB de almacenamiento SSD.",
+          "stock": 8,
+          "categoria": "Electrónica",
+          "tipo": "Notebook",
+          "precio": 699.99
+        },
+        {
+            "id": 5,
+          "imagen": "https://m.media-amazon.com/images/I/71vFKBpKakL._AC_SX522_.jpg",
+          "titulo": "Notebook Apple MacBook Air",
+          "descripcion": "Notebook ultradelgado con procesador Apple M1, 8GB de RAM y 256GB de almacenamiento SSD.",
+          "stock": 3,
+          "categoria": "Electrónica",
+          "tipo": "Notebook",
+          "precio": 1199.99
+        },
+        {
+            "id": 6,
+          "imagen": "https://m.media-amazon.com/images/I/71rq6NssgdL._AC_SL1500_.jpg",
+          "titulo": "Notebook ASUS VivoBook",
+          "descripcion": "Notebook compacto con pantalla táctil, procesador Intel Core i3 y 4GB de RAM.",
+          "stock": 12,
+          "categoria": "Electrónica",
+          "tipo": "Notebook",
+          "precio": 499.99
+        },
+        {
+            "id": 7,
+          "imagen": "https://m.media-amazon.com/images/I/81K1NR+8WjL._AC_SL1500_.jpg",
+          "titulo": "Notebook MSI Gaming",
+          "descripcion": "Notebook para juegos con procesador Intel Core i7, tarjeta gráfica NVIDIA GeForce RTX 3070 y 16GB de RAM.",
+          "stock": 6,
+          "categoria": "Electrónica",
+          "tipo": "Notebook",
+          "precio": 1999.99
+        },
+        {
+            "id": 8,
+          "imagen": "https://m.media-amazon.com/images/I/81IkJOqFf3L._AC_SL1500_.jpg",
+          "titulo": "Notebook Lenovo Yoga",
+          "descripcion": "Notebook convertible con pantalla táctil, procesador Intel Core i5 y 8GB de RAM.",
+          "stock": 4,
+          "categoria": "Electrónica",
+          "tipo": "Notebook",
+          "precio": 799.99
+        },
+        {
+            "id": 9,
+          "imagen": "https://m.media-amazon.com/images/I/61ajvXIwmyL._AC_SL1500_.jpg",
+          "titulo": "Notebook HP Envy",
+          "descripcion": "Notebook premium con pantalla táctil, procesador Intel Core i7 y 512GB de almacenamiento SSD.",
+          "stock": 7,
+          "categoria": "Electrónica",
+          "tipo": "Notebook",
+          "precio": 1399.99
+        },
+        {
+            "id": 10,
+          "imagen": "https://m.media-amazon.com/images/I/61clxFOZnCL._AC_SL1451_.jpg",
+          "titulo": "Notebook Dell XPS",
+          "descripcion": "Notebook de alta gama con pantalla 4K, procesador Intel Core i9 y 32GB de RAM.",
+          "stock": 1,
+          "categoria": "Electrónica",
+          "tipo": "Notebook",
+          "precio": 2499.99
+        },
+        {
+            "id": 11,
+          "imagen": "https://m.media-amazon.com/images/I/61wh4txPsGL._AC_SL1200_.jpg",
+          "titulo": "Notebook Acer Predator",
+          "descripcion": "Notebook para juegos con procesador Intel Core i7, tarjeta gráfica NVIDIA GeForce RTX 3080 y 32GB de RAM.",
+          "stock": 3,
+          "categoria": "Electrónica",
+          "tipo": "Notebook",
+          "precio": 2499.99
+        },
+        {
+            "id": 12,
+          "imagen": "https://m.media-amazon.com/images/I/51fVpA-sVfL._AC_SL1200_.jpg",
+          "titulo": "Notebook Apple MacBook Pro",
+          "descripcion": "Notebook profesional con procesador Intel Core i9, 16GB de RAM y 1TB de almacenamiento SSD.",
+          "stock": 2,
+          "categoria": "Electrónica",
+          "tipo": "Notebook",
+          "precio": 2799.99
+        },
+        {
+            "id": 13,
+          "imagen": "https://m.media-amazon.com/images/I/71z0om-Cz1L._AC_SL1500_.jpg",
+          "titulo": "Notebook ASUS ROG Strix",
+          "descripcion": "Notebook para juegos con procesador Intel Core i7, tarjeta gráfica NVIDIA GeForce RTX 3060 y 16GB de RAM.",
+          "stock": 5,
+          "categoria": "Electrónica",
+          "tipo": "Notebook",
+          "precio": 1799.99
+        },
+        {
+            "id": 14,
+          "imagen": "https://m.media-amazon.com/images/I/31Trwx5KK8L._AC_.jpg",
+          "titulo": "Notebook Lenovo Legion",
+          "descripcion": "Notebook para juegos con procesador AMD Ryzen 7, tarjeta gráfica NVIDIA GeForce GTX 1660 Ti y 16GB de RAM.",
+          "stock": 4,
+          "categoria": "Electrónica",
+          "tipo": "Notebook",
+          "precio": 1499.99
+        },
+        {
+            "id": 15,
+          "imagen": "https://m.media-amazon.com/images/I/61L7vD2L4lL._AC_SL1500_.jpg",
+          "titulo": "Notebook HP Spectre",
+          "descripcion": "Notebook premium con pantalla táctil, procesador Intel Core i7 y 512GB de almacenamiento SSD.",
+          "stock": 6,
+          "categoria": "Electrónica",
+          "tipo": "Notebook",
+          "precio": 1599.99
+        },
+        {
+            "id": 16,
+          "imagen": "https://m.media-amazon.com/images/I/81aNBTZiD+L._AC_SL1500_.jpg",
+          "titulo": "Notebook Dell Precision",
+          "descripcion": "Notebook de alto rendimiento para profesionales con procesador Intel Xeon, 32GB de RAM y 1TB de almacenamiento SSD.",
+          "stock": 3,
+          "categoria": "Electrónica",
+          "tipo": "Notebook",
+          "precio": 2999.99
+        },
+        {
+            "id": 17,
+          "imagen": "https://m.media-amazon.com/images/I/71Tllo8Gh+L._AC_SX466_.jpg",
+          "titulo": "Notebook Acer Swift",
+          "descripcion": "Notebook ultradelgado con procesador Intel Core i5, 8GB de RAM y 256GB de almacenamiento SSD.",
+          "stock": 9,
+          "categoria": "Electrónica",
+          "tipo": "Notebook",
+          "precio": 799.99
+        },
+        {
+            "id": 18,
+          "imagen": "https://m.media-amazon.com/images/I/61bX2AoGj2L._AC_SL1500_.jpg",
+          "titulo": "Notebook Apple MacBook",
+          "descripcion": "Notebook elegante con procesador Intel Core i5, 8GB de RAM y 512GB de almacenamiento SSD.",
+          "stock": 7,
+          "categoria": "Electrónica",
+          "tipo": "Notebook",
+          "precio": 1499.99
+        },
+        {
+            "id": 19,
+          "imagen": "https://m.media-amazon.com/images/I/71Rkb0YDCYL._AC_SL1500_.jpg",
+          "titulo": "Notebook ASUS ZenBook",
+          "descripcion": "Notebook ultradelgado con pantalla táctil, procesador Intel Core i7 y 16GB de RAM.",
+          "stock": 5,
+          "categoria": "Electrónica",
+          "tipo": "Notebook",
+          "precio": 1299.99
+        },
+        {
+            "id": 20,
+          "imagen": "https://m.media-amazon.com/images/I/61sXthzzgzL._AC_SX466_.jpg",
+          "titulo": "Notebook Lenovo IdeaPad",
+          "descripcion": "Notebook básico con procesador Intel Pentium, 4GB de RAM y 128GB de almacenamiento SSD.",
+          "stock": 10,
+          "categoria": "Electrónica",
+          "tipo": "Notebook",
+          "precio": 399.99
+        },
+        {
+            "id": 21,
+          "imagen": "https://m.media-amazon.com/images/I/61-u9TzuftL._AC_SL1280_.jpg",
+          "titulo": "Notebook HP ProBook",
+          "descripcion": "Notebook empresarial con procesador Intel Core i5, 8GB de RAM y 256GB de almacenamiento SSD.",
+          "stock": 6,
+          "categoria": "Electrónica",
+          "tipo": "Notebook",
+          "precio": 899.99
+        },
+        {
+            "id": 22,
+          "imagen": "https://m.media-amazon.com/images/I/61WeGAyDVjL._AC_SL1280_.jpg",
+          "titulo": "Notebook Dell Latitude",
+          "descripcion": "Notebook empresarial con procesador Intel Core i7, 16GB de RAM y 512GB de almacenamiento SSD.",
+          "stock": 4,
+          "categoria": "Electrónica",
+          "tipo": "Notebook",
+          "precio": 1299.99
+        },
+        {
+            "id": 23,
+          "imagen": "https://m.media-amazon.com/images/I/61QToQCu9oL._AC_SL1500_.jpg",
+          "titulo": "Notebook Acer Chromebook",
+          "descripcion": "Notebook con sistema operativo Chrome OS, procesador Intel Celeron y 4GB de RAM.",
+          "stock": 8,
+          "categoria": "Electrónica",
+          "tipo": "Notebook",
+          "precio": 299.99
+        },
+        {
+            "id": 24,
+          "imagen": "https://m.media-amazon.com/images/I/61aUBxqc5PL._AC_SL1500_.jpg",
+          "titulo": "Notebook Apple MacBook Pro",
+          "descripcion": "Notebook profesional con procesador Intel Core i7, 16GB de RAM y 512GB de almacenamiento SSD.",
+          "stock": 3,
+          "categoria": "Electrónica",
+          "tipo": "Notebook",
+          "precio": 1999.99
+        },
+        {
+            "id": 25,
+          "imagen": "https://m.media-amazon.com/images/I/71AGOX9MORL._AC_SL1500_.jpg",
+          "titulo": "Notebook ASUS TUF Gaming",
+          "descripcion": "Notebook para juegos con procesador AMD Ryzen 7, tarjeta gráfica NVIDIA GeForce GTX 1650 y 16GB de RAM.",
+          "stock": 5,
+          "categoria": "Electrónica",
+          "tipo": "Notebook",
+          "precio": 1299.99
+        },
+        {
+            "id": 26,
+          "imagen": "https://m.media-amazon.com/images/I/61o+egf3VYL._AC_SX466_.jpg",
+          "titulo": "Notebook Lenovo V14",
+          "descripcion": "Notebook básico con procesador AMD Ryzen 3, 8GB de RAM y 256GB de almacenamiento SSD.",
+          "stock": 7,
+          "categoria": "Electrónica",
+          "tipo": "Notebook",
+          "precio": 599.99
+        },
+        {
+            "id": 27,
+          "imagen": "https://m.media-amazon.com/images/I/71u0yVunVjL._AC_SX466_.jpg",
+          "titulo": "Notebook HP Chromebook",
+          "descripcion": "Notebook con sistema operativo Chrome OS, procesador Intel Celeron y 4GB de RAM.",
+          "stock": 9,
+          "categoria": "Electrónica",
+          "tipo": "Notebook",
+          "precio": 249.99
+        },
+        {
+            "id": 28,
+          "imagen": "https://m.media-amazon.com/images/I/61QYZQ-eIHL._AC_SL1020_.jpg",
+          "titulo": "Notebook Dell G5",
+          "descripcion": "Notebook para juegos con procesador Intel Core i5, tarjeta gráfica NVIDIA GeForce GTX 1660 Ti y 8GB de RAM.",
+          "stock": 6,
+          "categoria": "Electrónica",
+          "tipo": "Notebook",
+          "precio": 1099.99
+        },
+        {
+            "id": 29,
+          "imagen": "https://m.media-amazon.com/images/I/61Dws-p0QoL._AC_SL1500_.jpg",
+          "titulo": "Notebook MSI Prestige",
+          "descripcion": "Notebook premium con pantalla táctil, procesador Intel Core i7 y 1TB de almacenamiento SSD.",
+          "stock": 2,
+          "categoria": "Electrónica",
+          "tipo": "Notebook",
+          "precio": 1799.99
+        },
+        {
+            "id": 30,
+          "imagen": "https://m.media-amazon.com/images/I/719mHuLSkhL._AC_SL1500_.jpg",
+          "titulo": "Notebook Lenovo Flex",
+          "descripcion": "Notebook convertible con pantalla táctil, procesador Intel Core i5 y 8GB de RAM.",
+          "stock": 4,
+          "categoria": "Electrónica",
+          "tipo": "Notebook",
+          "precio": 899.99
+        }
+      ]
+}

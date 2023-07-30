@@ -1,0 +1,50 @@
+@import url("./Estilos/animacionTitulo.css");
+@import url("./Estilos/loader.css");
+@import url("./Estilos/card.css");
+@import url("./Estilos/formularios.css");
+@import url("./Estilos/footer.css");
+@import url("./Estilos/detalleDeProducto.css");
+@import url("./Estilos/container.css");
+@import url("./Estilos/navbar.css");
+@import url("./Estilos/botonos.css");
+@import url('https://fonts.googleapis.com/css2?family=Aclonica&family=Black+Ops+One&family=Bungee+Spice&family=Creepster&family=Hanalei&family=Hind:wght@300;400;500;600;700&family=Quantico:ital,wght@1,700&family=Source+Code+Pro&display=swap');
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Source Code Pro', monospace;
+  background-image: url('https://images.pexels.com/photos/403575/pexels-photo-403575.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1');
+  background-repeat: initial;
+  background-size: cover;
+}
+
+
+/* Estilos para el título principal */
+.main-title {
+  font-family: "Russo One", sans-serif;
+  color: #cfc0b2;
+  text-align: center;
+  font-size: 70px;
+  margin-bottom: 20px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  -webkit-text-stroke: 2px black;
+ 
+}
+
+
+@media (max-width: 768px) {
+  /* Agrega aquí los estilos específicos para dispositivos móviles */
+  .main-title {
+    font-size: 30px; /* Por ejemplo, ajustar el tamaño del título para dispositivos móviles */
+  }
+
+  /* Agrega más estilos responsivos para dispositivos móviles si es necesario */
+}
+
+/* Media Query para dispositivos con un ancho mayor a 768px (dispositivos de escritorio) */
+@media (min-width: 769px) {
+  /* Agrega aquí los estilos específicos para dispositivos de escritorio */
+  .main-title {
+    font-size: 70px; /* Por ejemplo, mantener el tamaño del título para dispositivos de escritorio */
+  }}

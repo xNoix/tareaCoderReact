@@ -1,0 +1,51 @@
+
+.relojes-container {
+  
+    max-width: 1200px; /* Ajusta el ancho máximo según tus necesidades */
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  .relojes-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); /* 3 columnas por fila */
+    gap: 20px; /* Espacio entre las tarjetas */
+  }
+  @media (max-width: 768px) {
+    .relojes-grid {
+      grid-template-columns: repeat(1, 1fr); /* Cambiamos a una columna por fila en dispositivos móviles */
+    }
+  }
+  
+  .contenido{
+  
+    background-color: #f6f5f5;
+    box-shadow: 5px 50px 60px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    padding: 20px;
+  }
+  /* Estilos para el contenedor principal */
+  .containerCarrito {
+    font-family: 'Bruno Ace SC', cursive; 
+    max-width: 600px; /* Ancho máximo del contenedor */
+    margin: 0 auto; /* Centrar el contenido horizontalmente */
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+  }
+  
+  /* Estilos para cada producto */
+  .d-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr; /* Dos columnas para el título y el precio */
+    gap: 10px; /* Espacio entre las columnas */
+    align-items: center;
+    border-bottom: 1px solid #ccc; /* Línea separadora entre productos */
+    padding-bottom: 10px; /* Espacio entre productos */
+  }
+  @media (max-width: 768px) {
+    /* Cambiamos a una sola columna en dispositivos móviles */
+    .d-grid {
+      grid-template-columns: 1fr; /* Una sola columna para el título y el precio */
+    }
+  }

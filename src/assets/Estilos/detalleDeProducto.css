@@ -1,0 +1,72 @@
+/* Estilos generales */
+.detalle {
+  font-family: 'Bruno Ace SC', cursive; 
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 20px;
+}
+
+.producto-detalle {
+  display: flex;
+  align-items: center;
+  width: 100%;
+}
+
+/* Estilos para la imagen */
+.producto-detalle img {
+  max-width: 300px; /* Ajusta el ancho máximo de la imagen según tus necesidades */
+  margin-right: 20px; /* Espacio entre la imagen y el contenido de texto */
+}
+
+/* Estilos para el contenido de texto */
+.producto-detalle > div {
+  flex: 1; /* Permite que el contenido de texto ocupe todo el espacio restante */
+}
+
+.producto-detalle h3.titulo {
+  font-size: 40px;
+  padding-bottom: 10px;
+  margin: 0;
+}
+
+.producto-detalle p.descripcion {
+  font-size: 16px;
+  font-weight: 14px;
+}
+
+.producto-detalle p.categoria,
+.producto-detalle p.precio {
+  font-size: 50px;
+  margin: 5px 0;
+}
+
+/* Estilos para dispositivos móviles */
+@media (max-width: 768px) {
+  .producto-detalle  {
+    width: auto;
+    flex-direction: column; 
+    /* Cambia el diseño a una sola columna en dispositivos móviles */
+  }
+
+  .producto-detalle img {
+    max-width: 100%; /* La imagen ocupará todo el ancho disponible */
+    margin-right: 0; /* Elimina el margen derecho para que la imagen se muestre a pantalla completa */
+    margin-bottom: 10px; /* Añade un margen inferior para separar la imagen del contenido de texto */
+  }
+
+  .producto-detalle > div {
+    width: 100%; 
+    text-align: center;/* El contenido de texto ocupará todo el ancho disponible */
+  }
+
+  .producto-detalle h3.titulo {
+    font-size: 30px; 
+    padding-left: 20px;/* Ajusta el tamaño del título para dispositivos móviles */
+  }
+
+  .producto-detalle p.categoria,
+  .producto-detalle p.precio {
+    font-size: 30px; /* Ajusta el tamaño del texto para dispositivos móviles */
+  }
+}
