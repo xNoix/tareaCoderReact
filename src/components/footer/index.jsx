@@ -11,7 +11,7 @@ const Footer= ()=>{
             <p className="rights">© 2023 Todos los derechos reservados</p>
           </div>
           <div className="footer-column">
-            <p className="contact">Contacto: darosayonatanrafael@gmail.com</p>
+            <p className="contact">Contacto: nicolas.j.cofre@gmail.com</p>
           </div>
           <div className="footer-column">
             <p className="share">Síguenos en:</p>

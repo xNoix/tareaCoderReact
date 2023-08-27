@@ -17,7 +17,7 @@ const SearchBar = ({ onSearch }) => {
     <Form className=" a d-flex" onSubmit={handleSubmit} >
             <Form.Control
               type="search"
-              placeholder="Busca Tu Reloj"
+              placeholder="Busca Tus Productos"
               value={searchTerm}
               className="me-2"
               onChange={handleInputChange}

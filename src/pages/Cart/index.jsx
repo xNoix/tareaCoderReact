@@ -46,9 +46,9 @@ const Card = () => {
                 <SentimentVeryDissatisfiedSharpIcon className=' w-25 h-25'/>
             </div>
                 <Link to={"/"}> <button className=' fs-6 btn  m-3 pulse border-black  '>Volver a Inicio</button></Link>
-                <Link to={"/Masculinos"}> <button className=' fs-6  pulse btn border-black  m-3'>Relojes Masculinos</button></Link>
-                <Link to={"/Femeninos"}> <button className=' fs-6 btn border-black  m-3 pulse'> Relojes Femeninos</button></Link> 
-                <Link to={"/"}> <button className=' fs-6 btn pulse border-black m-3'>Relojes Smartwatch</button></Link>
+                <Link to={"/Masculinos"}> <button className=' fs-6  pulse btn border-black  m-3'>Notebooks</button></Link>
+                <Link to={"/Femeninos"}> <button className=' fs-6 btn border-black  m-3 pulse'>Auriculares</button></Link> 
+                <Link to={"/"}> <button className=' fs-6 btn pulse border-black m-3'>Teclados</button></Link>
             </>
                
         

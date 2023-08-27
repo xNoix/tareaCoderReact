@@ -4,9 +4,9 @@ import Carousel from 'react-bootstrap/Carousel';
 const Carrusel= () => {
   // Array de productos destacados
   const images= [
-    { id: 1, name: 'Relojes elegante', image: 'https://images.pexels.com/photos/9878300/pexels-photo-9878300.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1', descripcion:"Los mas Fachero del mercado" },
-    { id: 2, name: 'Relojes deportivo', image: 'https://images.pexels.com/photos/277319/pexels-photo-277319.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1', descripcion:"Los mas Fachero del mercado"},
-    { id: 3, name: 'Relojes clásico', image: 'https://images.pexels.com/photos/437037/pexels-photo-437037.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1', descripcion:"Los mas Fachero del mercado"},
+    { id: 1, name: 'Relojes elegante', image: 'https://media.spdigital.cl/file_upload/Desktop_Hero_(7)_46a7c0ee.png', descripcion:"Los mas Fachero del mercado" },
+    { id: 2, name: 'Relojes deportivo', image: 'https://media.spdigital.cl/file_upload/Desktop_Hero_4_(4)_212f2461.png', descripcion:"Los mas Fachero del mercado"},
+    { id: 3, name: 'Relojes clásico', image: 'https://media.spdigital.cl/file_upload/Desktop_Hero_OfertasFlash_ProductosAgo-2023_(1)_8d4988cb.png', descripcion:"Los mas Fachero del mercado"},
   ];
 
   return (
@@ -19,10 +19,6 @@ const Carrusel= () => {
             alt={image.name}
             height={500}
           />
-          {/* <Carousel.Caption className=' h-auto w-auto'>
-            <h3>{image.name}</h3>
-            <p>{image.descripcion}</p>
-          </Carousel.Caption> */}
         </Carousel.Item>
       ))}
     </Carousel>

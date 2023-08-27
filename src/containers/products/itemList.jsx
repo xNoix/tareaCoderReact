@@ -27,7 +27,7 @@ const ItemList = ({ productos, titulo }) => {
         <Spinner />
       ) : (
         // Si no está cargando, mostrar la lista de productos
-        <div className="productos relojes-grid">
+        <div className="productos productos-grid">
           {productos.map((prod) => (
             <Item producto={prod} key={prod.id} />
           ))}

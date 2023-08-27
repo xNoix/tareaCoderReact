@@ -50,7 +50,7 @@ const ItemDetail = ( {item} ) => {
                
                <div className="ps-5 pt-5 pb-3">
                 <h3>Descripción</h3>
-                <p className="descripcion"> {item.descripción}</p>
+                <p className="descripcion"> {item.description}</p>
                </div>
 
             </div>

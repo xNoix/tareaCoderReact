@@ -17,7 +17,7 @@ const Item = ( {producto} ) => {
                 Precio: $ {producto.precio}
                 </Card.Text>
                 <Card.Text className="  pb-2">
-                Categoría: { producto.categoría}
+                Categoría: { producto.categoria}
                 </Card.Text>
                 <Link to={`/item/${producto.id}`}><button className="btn pulse ms-5 pb-1 fs-5 border-black">Ver más</button> </Link>
        

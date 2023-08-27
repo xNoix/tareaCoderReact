@@ -7,15 +7,8 @@ import ItemListContainer from "../../containers/products/itemListContainer";
 const StartPage= ()=>{
     return(
       <div>
-        <div className="wrapper">
-          <svg>
-            <text x="50%" y="50%" dy=".35em" textAnchor="middle">
-           GEODA
-           </text>
-          </svg>
-        </div>
         <div className="glitch-wrapper container p-2 main-title">
-   <div className="glitch" data-text="ENCONTRÁ  AQUÍ TU RELOJ FAVORITO">ENCONTRÁ  AQUÍ TU RELOJ FAVORITO</div>
+   <div className="glitch" data-text="ENCONTRÁ  AQUÍ TU RELOJ FAVORITO">ENCONTRÁ  AQUÍ TUS PRODUCTOS FAVORITO</div>
 </div>
 
     

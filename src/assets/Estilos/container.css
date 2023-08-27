@@ -1,18 +1,18 @@
 
-.relojes-container {
+.productos-container {
   
     max-width: 1200px; /* Ajusta el ancho máximo según tus necesidades */
     margin: 0 auto;
     padding: 20px;
   }
   
-  .relojes-grid {
+  .productos-grid {
     display: grid;
     grid-template-columns: repeat(3, 1fr); /* 3 columnas por fila */
     gap: 20px; /* Espacio entre las tarjetas */
   }
   @media (max-width: 768px) {
-    .relojes-grid {
+    .productos-grid {
       grid-template-columns: repeat(1, 1fr); /* Cambiamos a una columna por fila en dispositivos móviles */
     }
   }

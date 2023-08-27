@@ -17,9 +17,9 @@ const ItemListContainer = () => {
     useEffect(() => {
 
       const productosRef = collection(db, "productos");
-      const q = categoria ? query(productosRef, where("categoría", "==", categoria)) : productosRef;
+      const q = categoria ? query(productosRef, where("categoria", "==", categoria)) : productosRef;
      
-
+      console.log(productosRef);
       getDocs(q)
         .then((resp) => {
 
@@ -28,14 +28,14 @@ const ItemListContainer = () => {
               return { ...doc.data(), id: doc.id }
             })
           );
-          setTitulo(categoria ? `Relojes ${categoria+"s"}` : "Todos los Relojes");
+          setTitulo(categoria ? `${categoria}` : "Todos los productos");
         })
         
     }, [categoria])
     
 
   return (
-    <div className="relojes-container">
+    <div className="productos-container">
         <ItemList productos={productos} titulo={titulo} />
     </div>
   )
